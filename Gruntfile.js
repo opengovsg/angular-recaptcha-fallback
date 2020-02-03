@@ -55,11 +55,6 @@ module.exports = function (grunt) {
                 browsers: ['Chrome_travis_ci', 'Firefox', 'FirefoxNightly'],
                 singleRun: true
             }
-        },
-        coveralls: {
-            options: {
-                coverageDir: 'coverage'
-            }
         }
     });
 
@@ -68,12 +63,10 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-bump');
     grunt.loadNpmTasks('grunt-karma');
-    grunt.loadNpmTasks('grunt-karma-coveralls');
 
     // Default task(s).
     grunt.registerTask('default', ['karma:unit', 'concat', 'uglify']);
 
     // Unit Test task(s).
     grunt.registerTask('test', ['karma:unit']);
-    grunt.registerTask('coverage', ['coveralls']);
 };

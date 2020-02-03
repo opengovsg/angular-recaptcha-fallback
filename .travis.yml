@@ -17,6 +17,3 @@ before_script:
 
 script:
   - grunt karma:ci
-
-after_script:
-  - grunt coverage
