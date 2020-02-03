@@ -3,6 +3,9 @@ language: node_js
 node_js:
   - 'stable'
 
+services:
+  - 'xvfb'
+
 before_script:
   - npm install -g grunt-cli bower
   - bower install
