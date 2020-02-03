@@ -1,15 +1,20 @@
 {
-  "name": "angular-recaptcha",
-  "version": "4.2.0",
-  "description": "An AngularJS module to ease usage of reCaptcha inside a form",
-  "author": "VividCortex",
+  "name": "angular-recaptcha-fallback",
+  "version": "4.2.1-0",
+  "description": "An AngularJS module to use reCaptcha via the fallback www.recaptcha.net URL.",
+  "author": "Open Government Products",
   "license": "MIT",
-  "homepage": "https://github.com/vividcortex/angular-recaptcha",
+  "homepage": "https://github.com/opengovsg/angular-recaptcha",
   "contributors": [
     {
-      "name" : "Eduardo Daniel Cuomo",
-      "email" : "reduardo7@gmail.com",
-      "url" : "https://github.com/reduardo7/angular-recaptcha"
+      "name": "Yuanruo Liang",
+      "email": "yuanruo@open.gov.sg",
+      "url": "https://github.com/opengovsg/angular-recaptcha"
+    },
+    {
+      "name": "Eduardo Daniel Cuomo",
+      "email": "reduardo7@gmail.com",
+      "url": "https://github.com/reduardo7/angular-recaptcha"
     }
   ],
   "main": "index.js",
@@ -29,7 +34,6 @@
     "grunt-contrib-jshint": "^1.1.0",
     "grunt-contrib-uglify": "^2.0.0",
     "grunt-karma": "^2.0.0",
-    "grunt-karma-coveralls": "^2.5.4",
     "jasmine-core": "^2.5.2",
     "karma": "^1.3.0",
     "karma-chrome-launcher": "^2.0.0",
