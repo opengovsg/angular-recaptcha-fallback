@@ -52,7 +52,7 @@ module.exports = function (grunt) {
             },
             ci: {
                 configFile: 'karma.conf.js',
-                browsers: ['Chrome_travis_ci', 'Firefox', 'FirefoxNightly'],
+                browsers: ['Chrome_travis_ci', 'Firefox'],
                 singleRun: true
             }
         }
